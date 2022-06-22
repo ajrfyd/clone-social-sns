@@ -1,10 +1,13 @@
 import React from "react";
+import Home from "./pages/Home/Home";
 
 const App = () => {
 
   return (
-    <div>
-      Hello App??
+    <div className='App'>
+      <div className="blur" style={{ top: '-18%', right: '0' }}></div>
+      <div className="blur" style={{ top: '36%', left: '-8rem' }}></div>
+      <Home />
     </div>
   )
 }
